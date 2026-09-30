@@ -1,4 +1,4 @@
-# VADER — Volatility-Adjusted Defence-Event Risk
+# VADER — Volatility of Abnormal Defence Equity Returns
 
 **VADER** is a quantitative measure of geopolitical risk derived from the equity market. It is constructed as the exponentially weighted moving average (EWMA) conditional volatility of the market-filtered returns of a value-weighted portfolio of listed defence-exposed firms.
 
