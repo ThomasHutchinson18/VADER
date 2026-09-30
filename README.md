@@ -9,26 +9,9 @@ The measure was developed for the paper *Always Tell Me the Odds: VADER, A Marke
 ## Methodology (summary)
 
 1. **Market filtering.** Each firm's daily returns are regressed on the S&P 500 over a 252-day rolling window ending at 
-t
-−
-1
-t−1. The day-
-t
-t residual uses only information available at 
-t
-−
-1
-t−1.
-
+t−1. The day-t residual uses only information available at t−1.
 2. **Portfolio aggregation.** Residuals are aggregated into a value-weighted portfolio. Membership updates annually from SIPRI; weights update monthly from market cap.
-
-3. **Conditional volatility.** VADER is the EWMA standard deviation of the portfolio residual, with 
-λ
-=
-0.94
-λ=0.94.
-
-Full detail, robustness, and interpretation are in the paper.
+3. **Conditional volatility.** VADER is the EWMA standard deviation of the portfolio residual, with λ=0.94. Full detail, robustness, and interpretation are in the paper.
 
 ```text
 VADER/
