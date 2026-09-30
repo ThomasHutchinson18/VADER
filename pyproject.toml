@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vader"
+version = "0.1.0"
+description = "Volatility of Abnormal Defense Equity Returns (VADER)"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+  "lseg-data==2.1.1",
+  "PyYAML==6.0.2",
+  "statsmodels==0.15.0",
+]
+keywords = ["finance", "risk", "geopolitical-risk", "volatility", "economics"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/pukkatee/VADER"
+Repository = "https://github.com/pukkatee/VADER"
+
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["vader*", "configuration*"]
