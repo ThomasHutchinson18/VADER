@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project or the VADER series, please cite the accompanying paper."
+title: "VADER"
+type: software
+repository-code: "https://github.com/ThomasHutchinson18/VADER"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Hutchinson
+      given-names: Thomas
+    - family-names: Baur
+      given-names: "Dirk G."
+    - family-names: Trench
+      given-names: Allan
+    - family-names: Hoang
+      given-names: "Lai T."
+  title: "Always Tell Me the Odds: VADER, a Market-Implied Measure of Geopolitical Risk"
+  date-published: 2026-09-30
+  url: "https://ssrn.com/abstract=7543140"
+  identifiers:
+    - type: doi
+      value: "10.2139/ssrn.7543140"
+      url: "https://doi.org/10.2139/ssrn.7543140"
